@@ -5,9 +5,9 @@ import IMG1 from "../../assets/project01.PNG";
 const data =[
   {
     id:1,
-    title:"Project 01",
+    title:"RecordBook POS System(Mobile)",
     img:IMG1,
-    github:"",
+    github:"https://github.com/MAD-arkSide/Recordbook_POS",
     behance:"",
   },
   {
@@ -46,7 +46,7 @@ const Portfolio = () => {
           <div className="portfolio__item-img">
             <img src={img} alt={title} />
           </div>
-          <h3>Title</h3>
+          <h3>{title}</h3>
           <div className="portfolio__item-cla">
             <a
               href={github}
