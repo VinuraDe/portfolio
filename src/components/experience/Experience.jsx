@@ -1,13 +1,12 @@
 import React from "react";
 import "./experience.css";
-import {BsFiletypeJava } from "react-icons/bs";
-import {FaReact} from "react-icons/fa"
+import {FaJava } from "react-icons/fa";
+import {LiaReact} from "react-icons/lia"
 import {AiFillHtml5} from "react-icons/ai"
-import {BiSolidFileCss, BiLogoJavascript, BiLogoPhp} from "react-icons/bi"
-import { Tb } from 'react-icons/Tb';
-
-import {TbBrandNextjs} from "react-icons/Tb"
-import {GrMysql} from "react-icons/gr"
+import {BiSolidFileCss, BiLogoJavascript, BiLogoPhp, BiLogoCPlusPlus} from "react-icons/bi"
+import {SiNextdotjs} from "react-icons/si"
+import {SiMysql} from "react-icons/si"
+import {IoLogoNodejs} from "react-icons/io"
 
 
 const Experience = () => {
@@ -40,13 +39,13 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <div>
-                <FaReact />
+                <LiaReact />
                 <h4>ReactJs</h4>
               </div>
             </article>
             <article className="experience__details">
               <div>
-                <TbBrandNextjs />
+                <SiNextdotjs />
                 <h4>NextJs</h4>
               </div>
             </article>
@@ -58,7 +57,7 @@ const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <div>
-              <BsFiletypeJava />
+              <FaJava />
               <h4>Java</h4>
               </div>
             </article>
@@ -70,8 +69,20 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <div>
-              <GrMysql />
+              <SiMysql style={{ fontSize: '25px' }}/>
               <h4>MySQL</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <div>
+              <IoLogoNodejs/>
+              <h4>NodeJs</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <div>
+              <BiLogoCPlusPlus/>
+              <h4>C++</h4>
               </div>
             </article>
           </div>
