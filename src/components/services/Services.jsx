@@ -1,6 +1,6 @@
 import React from "react";
 import "./services.css";
-import {BiSolidBadgeCheck} from "react-icons/bi"
+import { BiSolidBadgeCheck } from "react-icons/bi";
 
 const Services = () => {
   return (
@@ -15,23 +15,23 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
+              <p>Cuztomized styles</p>
             </li>
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
+              <p>High security</p>
             </li>
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
+              <p>Fully optimized</p>
             </li>
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
+              <p>Fully responsive</p>
             </li>
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
+              <p>Maintenance</p>
             </li>
           </ul>
         </article>
@@ -42,23 +42,19 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
+              <p>Android apps</p>
             </li>
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
+              <p>Responsive Designs</p>
             </li>
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
+              <p>High security</p>
             </li>
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
-            </li>
-            <li>
-              <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
+              <p>Maintenance</p>
             </li>
           </ul>
         </article>
@@ -69,28 +65,22 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
+              <p>Wireframing and Prototyping</p>
             </li>
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
+              <p>Responsive Design</p>
             </li>
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
+              <p>Futuristic designs</p>
             </li>
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
-            </li>
-            <li>
-              <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>          
+              <p>Research and Discovery:</p>
             </li>
           </ul>
         </article>
-      
-      
       </div>
     </section>
   );

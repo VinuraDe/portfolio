@@ -3,7 +3,11 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+      <div className = "fot">
+        <h5>© 2023 Vinura de Silva. All Rights Reserved.</h5>
+      </div>
+    </footer>
   )
 }
 

@@ -1,6 +1,8 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/project01.PNG";
+import IMG2 from "../../assets/project02.png";
+import IMG3 from "../../assets/project03.png";
 
 const data =[
   {
@@ -12,25 +14,19 @@ const data =[
   },
   {
     id:2,
-    title:"Project 02",
-    img:IMG1,
-    github:"",
-    behance:"",
+    title:"Hotel Management(Web)",
+    img:IMG2,
+    github:"https://github.com/SLIITITP/y2_s2_wd_it_01-itp_wd_b01_09",
+    behance:"#",
   },
   {
     id:3,
-    title:"Project 04",
-    img:IMG1,
-    github:"",
+    title:"Food Review Web Application",
+    img:IMG3,
+    github:"https://github.com/VinuraDe/Food-Review-Web-Application",
     behance:"",
   },
-  {
-    id:4,
-    title:"Project 04",
-    img:IMG1,
-    github:"",
-    behance:"",
-  }
+  
 ]
 
 const Portfolio = () => {
