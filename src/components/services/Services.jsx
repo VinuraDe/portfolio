@@ -77,7 +77,7 @@ const Services = () => {
             </li>
             <li>
               <BiSolidBadgeCheck className="service__list-icon" />
-              <p>Research and Discovery:</p>
+              <p>Research and Discovery</p>
             </li>
           </ul>
         </article>
