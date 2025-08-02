@@ -7,6 +7,7 @@ import {BiSolidFileCss, BiLogoJavascript, BiLogoPhp, BiLogoCPlusPlus} from "reac
 import {SiNextdotjs} from "react-icons/si"
 import {SiMysql} from "react-icons/si"
 import {IoLogoNodejs} from "react-icons/io"
+import { TbBrandTailwind } from "react-icons/tb";
 
 
 const Experience = () => {
@@ -29,6 +30,12 @@ const Experience = () => {
               <div>
                 <BiSolidFileCss />
                 <h4>CSS</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <div>
+                <TbBrandTailwind />
+                <h4>Tailwind</h4>
               </div>
             </article>
             <article className="experience__details">
@@ -57,32 +64,32 @@ const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <div>
-              <FaJava />
-              <h4>Java</h4>
+                <FaJava />
+                <h4>Java</h4>
               </div>
             </article>
             <article className="experience__details">
               <div>
-              <BiLogoPhp />
-              <h4>PHP</h4>
+                <BiLogoPhp />
+                <h4>PHP</h4>
               </div>
             </article>
             <article className="experience__details">
               <div>
-              <SiMysql style={{ fontSize: '25px' }}/>
-              <h4>MySQL</h4>
+                <SiMysql style={{ fontSize: "25px" }} />
+                <h4>MySQL</h4>
               </div>
             </article>
             <article className="experience__details">
               <div>
-              <IoLogoNodejs/>
-              <h4>NodeJs</h4>
+                <IoLogoNodejs />
+                <h4>NodeJs</h4>
               </div>
             </article>
             <article className="experience__details">
               <div>
-              <BiLogoCPlusPlus/>
-              <h4>C++</h4>
+                <BiLogoCPlusPlus />
+                <h4>C++</h4>
               </div>
             </article>
           </div>

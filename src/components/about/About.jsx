@@ -20,7 +20,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Education</h5>
-              <small>4th year Undergraduate</small>
+              <small>IT Graduate</small>
             </article>
 
             <article className="about__card">
@@ -31,19 +31,21 @@ const About = () => {
 
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Experience</h5>
-              <small>2 Years of programming</small>
+              <h5>Industry Experience</h5>
+              <small>1+ Years</small>
             </article>
           </div>
 
           <p>
-            A passionate and driven third-year undergraduate student pursuing a
-            degree in Information Technology. My journey in IT has been a
-            thrilling adventure of learning, problem-solving, and innovation. I
-            believe in the power of technology to transform lives and drive
-            positive change. With a strong foundation in programming languages,
-            web development, and database management, I've embarked on projects
-            that challenge me to push the boundaries of what's possible.
+            I'm a passionate and driven IT graduate with a BSc (Hons) in
+            Information Technology from SLIIT. My journey in tech has been one
+            of continuous learning, hands-on building, and solving real-world
+            problems. I’m especially drawn to full-stack development and
+            IoT-based solutions that make a meaningful impact. With experience
+            in modern frameworks like React, NestJS, I’ve worked on
+            projects ranging from scalable web apps to environmental monitoring
+            systems. I believe in writing clean, efficient code and building
+            solutions that are both innovative and practical.
           </p>
           <a href="#contact" className="btn btn-primary">
             {" "}
